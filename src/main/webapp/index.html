@@ -1,0 +1,38 @@
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>메인테스트</title>
+
+    <script src="/js/api.js" type="text/javascript"></script>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .login_container{
+            display: flex;
+            flex-direction: column;
+            width: 50%;
+            max-width: 250px;
+        }
+        .input_style{
+            height: 40px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+<h2>이가네 주식 프로젝트 로그인</h2>
+<div class="login_container">
+    <input class="input_style" id="id" type="text" placeholder="아이디를 입력하세요.">
+    <input class="input_style" id="pwd" type="password" placeholder="패스워드를 입력하세요.">
+    <button class="input_style" onclick="serverInit()">로그인</button>
+</div>
+<script>
+</script>
+</body>
+</html>
